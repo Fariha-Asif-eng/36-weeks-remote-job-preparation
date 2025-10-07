@@ -54,6 +54,7 @@ Forms allow users to input and submit data to the server.
 
 ### Common Form Elements:
 
+```
 <input> — Defines an input field.
 
 <textarea> — Multi-line input field.
@@ -61,6 +62,7 @@ Forms allow users to input and submit data to the server.
 <button> — Clickable button.
 
 <select> — Dropdown list.
+```
 
 ## 📊 3. Tables in HTML
 Tables are used to organize and display data in rows and columns.
@@ -92,7 +94,7 @@ Tables are used to organize and display data in rows and columns.
 HTML supports embedding images, audio, videos, and external webpages.
 
 #### Common Media Tags:
-
+```
 <img> — Displays an image.
 
 <audio> — Embeds audio content.
@@ -100,8 +102,8 @@ HTML supports embedding images, audio, videos, and external webpages.
 <video> — Embeds a video file.
 
 <iframe> — Embeds another webpage.
-
-Example:
+```
+#### Example:
 
 ```
 <img src="image.jpg" alt="Description" width="300">
@@ -115,7 +117,7 @@ Example:
 The <head> tag contains metadata, such as the page title, character encoding, and SEO-related information.
 <meta> tags help improve search engine visibility and responsiveness.
 
-Example:
+#### Example:
 ```
 <head>
   <meta charset="UTF-8">
