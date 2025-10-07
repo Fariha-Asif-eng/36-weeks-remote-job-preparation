@@ -1,95 +1,113 @@
-🎨 CSS Basics
+# 🎨 CSS Basics
 
-CSS (Cascading Style Sheets) is used to style and visually enhance HTML elements on a webpage.
+**CSS (Cascading Style Sheets)** is used to style and visually enhance HTML elements on a webpage.
 
-1️⃣ CSS Basics (Selectors, Colors, Fonts)
+---
+
+## 📗 1. CSS Basics (Selectors, Colors, Fonts)
 
 Selectors target HTML elements to apply styles.
 
+```css
 p {
   color: blue;
   font-family: Arial;
 }
+color — sets the text color.
 
+font-family — changes the font style.
 
-color sets the text color.
+📘 2. Box Model
+The Box Model defines how elements are spaced and sized — including content, padding, border, and margin.
 
-font-family changes the font style.
-
-2️⃣ Box Model
-
-The box model defines how elements are spaced and sized — including content, padding, border, and margin.
-
+css
+Copy code
 div {
   width: 200px;
   padding: 10px;
   border: 5px solid black;
   margin: 20px;
 }
-
-3️⃣ Inline vs Block vs Inline-Block
+📙 3. Inline vs Block vs Inline-Block
 Type	Examples	Description
 Inline	<span>, <a>	Does not accept width/height.
-Block	<div>, <p>	Takes full width of its parent.
+Block	<div>, <p>	Takes full width of its parent container.
 Inline-Block	—	Behaves like inline but supports width and height.
-4️⃣ Flexbox
 
+📒 4. Flexbox
 Used for creating flexible layouts that adjust dynamically.
 
+css
+Copy code
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+display: flex; — activates flex container.
 
-5️⃣ Grid
+justify-content — aligns items horizontally.
 
-CSS Grid is used for building complex, multi-dimensional layouts.
+align-items — aligns items vertically.
 
+📔 5. Grid
+CSS Grid is used for building complex, two-dimensional layouts.
+
+css
+Copy code
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
+display: grid; — activates grid layout.
 
-6️⃣ Position
+grid-template-columns — defines column structure.
 
+gap — defines spacing between grid items.
+
+📕 6. Position
 Controls how elements are positioned in the document.
 
-static (default)
+static — default positioning.
 
-relative
+relative — positioned relative to its normal position.
 
-absolute
+absolute — positioned relative to nearest positioned ancestor.
 
-fixed
+fixed — positioned relative to the viewport.
 
-sticky
+sticky — toggles between relative and fixed depending on scroll.
 
-7️⃣ Animation, Transition, and Transform
+📓 7. Animation, Transition, and Transform
+Used to create smooth motion effects and dynamic transitions.
 
-Create smooth effects and motion in CSS.
-
+css
+Copy code
 @keyframes example {
   0% { background-color: red; }
   100% { background-color: blue; }
 }
+Common Properties:
 
+transition — controls speed of changes.
 
-Use with:
+transform — allows rotation, scaling, and translation (2D & 3D).
 
-transition
+animation — defines custom keyframe animations.
 
-transform (2D & 3D)
+📚 8. Media Queries
+Used to make layouts responsive on different screen sizes.
 
-Scroll-based animations for interactive designs
-
-8️⃣ Media Queries
-
-Used to make layouts responsive for different screen sizes.
-
+css
+Copy code
 @media (max-width: 600px) {
   body {
     background-color: lightblue;
   }
 }
+@media — defines conditions for applying CSS.
+
+(max-width: 600px) — applies style when screen width ≤ 600px.
+
+💡 Tip: Practice by building small UI components such as buttons, cards, and navigation bars to strengthen your CSS understanding.
