@@ -81,7 +81,7 @@ Tables are used to organize and display data in rows and columns.
 ```
 
 #### Table Elements:
-
+```
 <table> — Defines a table.
 
 <tr> — Table row.
@@ -89,7 +89,7 @@ Tables are used to organize and display data in rows and columns.
 <th> — Header cell.
 
 <td> — Data cell.
-
+```
 ## 🖼️ 4. Media in HTML
 HTML supports embedding images, audio, videos, and external webpages.
 
