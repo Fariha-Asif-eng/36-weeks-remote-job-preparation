@@ -12,7 +12,8 @@ Selectors target HTML elements to apply styles.
 p {
   color: blue;
   font-family: Arial;
-}```
+}
+```
 
 color — sets the text color.
 
@@ -27,7 +28,8 @@ div {
   padding: 10px;
   border: 5px solid black;
   margin: 20px;
-}```
+}
+```
 
 ## 📙 3. Inline vs Block vs Inline-Block
 Type	Examples	Description
@@ -43,7 +45,8 @@ Used for creating flexible layouts that adjust dynamically.
   display: flex;
   justify-content: center;
   align-items: center;
-}```
+}
+```
 
 display: flex; — activates flex container.
 
@@ -59,7 +62,8 @@ CSS Grid is used for building complex, two-dimensional layouts.
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-}```
+}
+```
 
 display: grid; — activates grid layout.
 
@@ -87,7 +91,8 @@ Used to create smooth motion effects and dynamic transitions.
 @keyframes example {
   0% { background-color: red; }
   100% { background-color: blue; }
-}```
+}
+```
 
 ### Common Properties:
 
@@ -105,7 +110,8 @@ Used to make layouts responsive on different screen sizes.
   body {
     background-color: lightblue;
   }
-}``` 
+}
+``` 
 
 @media — defines conditions for applying CSS.
 
