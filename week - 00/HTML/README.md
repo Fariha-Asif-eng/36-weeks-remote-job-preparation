@@ -50,7 +50,9 @@ Forms allow users to input and submit data to the server.
   <input type="text" id="name" name="name" required>
   <input type="submit" value="Submit">
 </form>
-Common Form Elements:
+```
+
+### Common Form Elements:
 
 <input> — Defines an input field.
 
@@ -60,11 +62,10 @@ Common Form Elements:
 
 <select> — Dropdown list.
 
-📊 3. Tables in HTML
+## 📊 3. Tables in HTML
 Tables are used to organize and display data in rows and columns.
 
-html
-Copy code
+```
 <table>
   <tr>
     <th>Name</th>
@@ -75,7 +76,9 @@ Copy code
     <td>25</td>
   </tr>
 </table>
-Table Elements:
+```
+
+#### Table Elements:
 
 <table> — Defines a table.
 
@@ -85,10 +88,10 @@ Table Elements:
 
 <td> — Data cell.
 
-🖼️ 4. Media in HTML
+## 🖼️ 4. Media in HTML
 HTML supports embedding images, audio, videos, and external webpages.
 
-Common Media Tags:
+#### Common Media Tags:
 
 <img> — Displays an image.
 
@@ -100,25 +103,26 @@ Common Media Tags:
 
 Example:
 
-html
-Copy code
+```
 <img src="image.jpg" alt="Description" width="300">
 
 <audio controls>
   <source src="audio.mp3" type="audio/mp3">
 </audio>
-⚙️ 5. Head Tag, Meta Tag, and SEO in HTML
+```
+
+## ⚙️ 5. Head Tag, Meta Tag, and SEO in HTML
 The <head> tag contains metadata, such as the page title, character encoding, and SEO-related information.
 <meta> tags help improve search engine visibility and responsiveness.
 
 Example:
-
-html
-Copy code
+```
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Learn HTML and CSS basics">
 </head>
+```
+
 💡 Tip: Always use semantic HTML, add alt text for images, and include meta descriptions to make your web pages accessible and SEO-friendly.
 
