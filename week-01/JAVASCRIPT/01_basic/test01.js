@@ -15,4 +15,3 @@ separate syntax hote hen or separate hi extensions hote hen */
 // nodejs hmari javascript file ko execute krta hy
 
 
-
