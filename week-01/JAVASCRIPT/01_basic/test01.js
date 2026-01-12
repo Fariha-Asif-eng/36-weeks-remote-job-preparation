@@ -14,4 +14,9 @@ separate syntax hote hen or separate hi extensions hote hen */
 // nodejs javascript ka enviornment hy
 // nodejs hmari javascript file ko execute krta hy
 
+// nodejs is not a library neither framework it is just a runtime enviornment which excutes the javascript files on runtime
 
+// Ryan Dahl (born 1981) is an American software engineer who is best known for creating the Node.js JavaScript runtime as well as the Deno JavaScript/TypeScript runtime.
+// On May 27, 2009, Dahl released his project, the Node.js runtime.
+
+// ecma script me sb developers ne documents me standards define krdiye hen
